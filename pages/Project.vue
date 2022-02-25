@@ -2,20 +2,20 @@
   <div>
     <Navbar/>
     <Projects/>
-    <Footer/>
+    <FooterSection/>
   </div>
 </template>
 
 <script>
 import Navbar from '../layouts/navbar.vue';
 import Projects from '../layouts/projectList.vue';
-import Footer from '../layouts/Footer.vue';
+import FooterSection from '../layouts/FooterSection.vue';
 export default {
   name: 'ProjectPage',
   components: {
     Navbar,
     Projects,
-    Footer
+    FooterSection
   }
 }
 </script>

@@ -1,18 +1,18 @@
 <template>
   <div>
     <Navbar/>
-    <Footer/>
+    <FooterSection/>
   </div>
 </template>
 
 <script>
 import Navbar from '../layouts/navbar.vue';
-import Footer from '../layouts/Footer.vue';
+import FooterSection from '../layouts/FooterSection.vue';
 export default {
-  name: 'ContactPage',
+  name: 'SkillsPage',
   components: {
     Navbar,
-    Footer
+    FooterSection
   }
 }
 </script>

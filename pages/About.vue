@@ -2,20 +2,21 @@
   <div >
     <Navbar/>
     <!-- <About/> -->
-    <Footer/>
+    Under Construction
+    <FooterSection/>
   </div>
 </template>
 
 <script>
 import About from '../layouts/about.vue';
 import Navbar from '../layouts/navbar.vue';
-import Footer from '../layouts/Footer.vue';
+import FooterSection from '../layouts/FooterSection.vue';
 export default {
   name: 'AboutPage',
   components: {
     Navbar,
     About,
-    Footer
+    FooterSection
   }
 }
 </script>

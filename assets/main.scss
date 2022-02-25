@@ -1,7 +1,7 @@
 $navbar-padding-horizontal: 2rem;
 $navbar-padding-vertical: 3rem;
 $card-radius: 0.5rem;
-
+$primary-color: blueviolet;
 html, body{
     width: 100%;
 }
@@ -21,7 +21,7 @@ html, body{
 }
 .web-title {
     font-size: 1.5rem;
-    color:blueviolet;
+    color: $primary-color;
 }
 
 .resume {
@@ -43,7 +43,8 @@ html, body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 4rem;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
 }
 
 .Project-title{
@@ -77,6 +78,24 @@ html, body{
 }
 .socials img{
     width: 1.5rem;
+}
+
+.main-page {
+    height: 100%;
+    top: 1rem;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.text-container {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-page-content-title{
+    color:$primary-color;
 }
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
