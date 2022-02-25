@@ -1,17 +1,18 @@
 <template>
   <div>
     <Navbar/>
+    <Projects/>
   </div>
 </template>
 
 <script>
-import Card from '~/components/Card'
 import Navbar from '../layouts/navbar.vue';
+import Projects from '../layouts/projectList.vue';
 export default {
-  name: 'IndexPage',
+  name: 'InspirePage',
   components: {
-    Card,
     Navbar,
+    Projects,
   }
 }
 </script>

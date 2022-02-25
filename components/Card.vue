@@ -3,7 +3,7 @@
     <div class="card">
       <header class="card-header">
         <p class="card-header-title has-text-grey">
-          {{ title }}
+          Animal Crossing Field Guide
         </p>
       </header>
       <div class="card-content">
@@ -16,9 +16,21 @@
         </div>
       </div>
       <footer class="card-footer">
+        <p class="card-footer-title has-text-grey">
+        </p>
         <div class="card-footer-item">
           <span>
-            <slot />
+            Java
+          </span>
+        </div>
+        <div class="card-footer-item">
+          <span>
+            Java
+          </span>
+        </div>
+        <div class="card-footer-item">
+          <span>
+            Java
           </span>
         </div>
       </footer>

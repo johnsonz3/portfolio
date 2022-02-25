@@ -1,0 +1,24 @@
+$navbar-padding-horizontal: 2rem;
+$navbar-padding-vertical: 3rem;
+
+.profile-pic {
+    position:absolute;
+    z-index: 1;
+}
+.profile-pic img{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 2rem;
+    box-shadow: 50%;
+}
+
+.empty-space{
+    width: 163.88px;
+}
+.web-title {
+    font-size: 1.5rem;
+    color:blueviolet;
+}
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
