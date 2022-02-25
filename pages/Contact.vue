@@ -1,20 +1,17 @@
 <template>
   <div>
     <Navbar/>
-    <Projects/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from '../layouts/navbar.vue';
-import Projects from '../layouts/projectList.vue';
 import Footer from '../layouts/Footer.vue';
 export default {
-  name: 'ProjectPage',
+  name: 'ContactPage',
   components: {
     Navbar,
-    Projects,
     Footer
   }
 }

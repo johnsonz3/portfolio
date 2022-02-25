@@ -1,6 +1,10 @@
 $navbar-padding-horizontal: 2rem;
 $navbar-padding-vertical: 3rem;
+$card-radius: 0.5rem;
 
+html, body{
+    width: 100%;
+}
 .profile-pic {
     position:absolute;
     z-index: 1;
@@ -20,5 +24,59 @@ $navbar-padding-vertical: 3rem;
     color:blueviolet;
 }
 
+.resume {
+    width: 50rem;
+    margin: auto;
+    border: 1px solid grey;
+    box-shadow: 20px;
+}
+.card {
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 10px -4px rgb(204, 149, 255);
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.Project-title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer-class {
+    position: fixed;
+    height: 3rem;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    bottom: 0;
+}
+.footer-container {
+    display: flex;
+    padding: 0.8rem 2rem 0.3rem 2rem;
+}
+.copyright{
+    width:30rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10rem;
+    margin-left: auto;
+}
+.copyright img{
+    width: 0.8rem;
+}
+.socials img{
+    width: 1.5rem;
+}
 @import "~bulma";
 @import "~buefy/src/scss/buefy";

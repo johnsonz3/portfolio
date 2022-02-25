@@ -1,18 +1,21 @@
 <template>
-  <div>
+  <div >
     <Navbar/>
-    <About/>
+    <!-- <About/> -->
+    <Footer/>
   </div>
 </template>
 
 <script>
 import About from '../layouts/about.vue';
 import Navbar from '../layouts/navbar.vue';
+import Footer from '../layouts/Footer.vue';
 export default {
-  name: 'InspirePage',
+  name: 'AboutPage',
   components: {
     Navbar,
     About,
+    Footer
   }
 }
 </script>

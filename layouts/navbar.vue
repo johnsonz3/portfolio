@@ -8,23 +8,19 @@
         
           <template #start>
               <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                  Home
+                Home
               </b-navbar-item>
               <b-navbar-item tag="router-link" :to="{ path: '/Project' }">
-                  Projects
+                Projects
               </b-navbar-item>
-            
               <b-navbar-item tag="router-link" :to="{ path: '/About' }">
-                  About
+                About
               </b-navbar-item>
-              <b-navbar-item href="#">
-                  Contact
+              <b-navbar-item tag="router-link" :to="{ path: '/Contact' }">
+                Contact
               </b-navbar-item>
-              <b-navbar-item href="#">
-                  Resume
-              </b-navbar-item>
-              <b-navbar-item >
-                 <i class="fal fa-sun"></i>
+              <b-navbar-item href="/Johnsons-Resume.pdf" target="_blank">
+                Resume
               </b-navbar-item>
           </template>
 
@@ -39,6 +35,7 @@ export default {
   name: 'NavbarLayout',
   data () {
     return {
+      publicPath: process.env.BASE_URL,
       items: [
         {
           title: 'Home',
