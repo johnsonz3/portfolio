@@ -1,7 +1,7 @@
 <template>
     <div class="card">
       <div class="card-image">
-        <figure class="image is-4by3">
+        <figure class="image is-6by3">
           <img v-bind:src="'/images/' + cardimage" :alt="cardimage">
         </figure>
       </div>
@@ -13,11 +13,14 @@
         </div>
 
         <div class="content">
-          <ul>
-            <li v-for="item in cardlanguages" :key="item.name">
-              {{ item.name }}
-            </li>
-          </ul>     
+          {{ cardcontent}}
+          <div class="languages-container">
+            <div v-for="item in cardlanguages" :key="item.name">
+              <b-field>
+                  <b-tag type="is-primary is-light" >#{{item.name}} </b-tag>
+              </b-field>
+            </div>
+          </div>     
         </div>
       </div>
     </div>

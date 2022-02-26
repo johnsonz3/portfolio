@@ -2,6 +2,7 @@ $navbar-padding-horizontal: 2rem;
 $navbar-padding-vertical: 3rem;
 $card-radius: 0.5rem;
 $primary-color: blueviolet;
+$primary: #8c67ef;
 html, body{
     width: 100%;
 }
@@ -31,7 +32,7 @@ html, body{
     box-shadow: 20px;
 }
 .card {
-    width: 20rem;
+    width: 25rem;
     margin-top: 2rem;
 }
 
@@ -47,9 +48,10 @@ html, body{
     padding-top: 1rem;
 }
 
-.Project-title{
+.page-title{
     text-align: center;
     font-size: 2rem;
+    padding-top: 2rem;
 }
 
 .footer-class {
@@ -67,12 +69,13 @@ html, body{
     width:30rem;
 }
 
-.socials {
+.socials{
     display: flex;
     justify-content: space-evenly;
     width: 10rem;
     margin-left: auto;
 }
+
 .copyright img{
     width: 0.8rem;
 }
@@ -82,7 +85,7 @@ html, body{
 
 .main-page {
     height: 100%;
-    top: 1rem;
+    top: 0;
     width: 100%;
     display: flex;
     position: fixed;
@@ -96,6 +99,39 @@ html, body{
 
 .main-page-content-title{
     color:$primary-color;
+}
+.languages-container{
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skills-page {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+.skill-card {
+    width: 12.5rem;
+}
+
+.skill-label {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    text-align: center;
+}
+#skills-summary {
+    width:100vw;
+    height: 100%;
+    padding: 20rem;
+}
+.skill-label-title {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
