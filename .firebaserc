@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "johnsonz-portfolio"
-  }
+    "default": "jzhang-portfolio",
+    "jzhang-portfolio": "jzhang-portfolio"
+  },
+  "targets": {}
 }
