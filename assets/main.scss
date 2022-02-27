@@ -133,5 +133,49 @@ html, body{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+.progress-skill-bar {
+    height: 1.5rem;
+    animation-name: slide;
+    border-radius: 5rem;
+    position: absolute;
+    z-index: 2;
+  }
+  
+@keyframes slide {
+0% {
+    width: var(--from-width);
+}
+100% {
+    width: var(--to-width);
+}
+}
+.progress-skill-bar-background{
+    height: 1.5rem;
+    background-color: lightgrey;
+    width: 100%;
+    border-radius: 5rem;
+    position: absolute;
+    z-index: 1;
+}
+.progress-skill-container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.progress-label-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.progress-skill-bar-container:hover{
+    cursor: pointer;
+}
+.percentage-title{
+    display: None;
+    color: white; 
+    padding-right: 10px;
+    text-align: right;
+}
 @import "~bulma";
 @import "~buefy/src/scss/buefy";

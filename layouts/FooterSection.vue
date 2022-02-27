@@ -3,7 +3,7 @@
         <div class="footer-container">
             <div class="copyright">
                <img src="../static/icons/copyright.png">
-                Johnson 2022 | New Grad Software Engineer
+                Johnson Zhang 2022 
             </div>
             <div class="socials">
                 <a target="blank" href="https://github.com/johnsonzhang434"><img src="../static/icons/github-icon.png"></a>

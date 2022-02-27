@@ -28,7 +28,8 @@ export default {
   plugins: [
     '@/plugins/vue-typed.js',
     '@/plugins/vue-eclipse-progress.js',
-    '@/plugins/vue-scroll-snap.js'
+    '@/plugins/vue-scroll-snap.js',
+    '@/plugins/vue-progress-bar.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -1,8 +1,11 @@
 <template>
   <vue-scroll-snap>
     <Navbar/>
-    <div class="item">
-    <skillsList/>
+    <div v-if="window.width >= 480" class="item">
+      <skillsList/>
+    </div>
+    <div v-else class="item">
+      <skillsListAlt/>
     </div>
     <!-- <div class="item">
     <section id="skills-summary">
@@ -28,6 +31,7 @@
 import Navbar from '../layouts/navbar.vue';
 import FooterSection from '../layouts/FooterSection.vue';
 import skillsList from '../layouts/skillsList.vue';
+import skillsListAlt from '../layouts/skillsListAlt.vue';
 import VueScrollSnap from "vue-scroll-snap";
 
 export default {
@@ -36,7 +40,29 @@ export default {
     Navbar,
     FooterSection,
     skillsList,
-    VueScrollSnap
-  }
+    VueScrollSnap,
+    skillsListAlt
+  },
+  data () {
+    return{
+        window: {
+            width: 0,
+            height: 0
+        }
+    }
+    },
+    created() {
+        window.addEventListener('resize', this.handleResize);
+        this.handleResize();
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.handleResize);
+    },
+    methods: {
+        handleResize() {
+            this.window.width = window.innerWidth;
+            this.window.height = window.innerHeight;
+        }
+    }
 }
 </script>
