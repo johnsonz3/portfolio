@@ -5,7 +5,7 @@
       </div>
       <div @mouseover="display = 'Block'" @mouseleave="display = 'None'" class="progress-skill-bar-container" style="width:50%;">
         <div :style="progressBarStyle" class="progress-skill-bar">
-          <div :style="'display:' + display" class="percentage-title">
+          <div class="percentage-title">
             {{percentage}}%
           </div>
         </div>
@@ -33,11 +33,6 @@ export default {
         "--from-width":"0",
         "--to-width": this.percentage+"%"
       };
-    }
-  },
-  data() {
-    return {
-      display: 'None',
     }
   }
 }

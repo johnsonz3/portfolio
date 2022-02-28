@@ -1,5 +1,5 @@
 <template>
-  <vue-scroll-snap>
+  <section>
     <Navbar/>
     <div v-if="window.width >= 480" class="item">
       <skillsList/>
@@ -13,7 +13,7 @@
     </section>
     </div> -->
     <FooterSection/>
-  </vue-scroll-snap>
+  </section>
 </template>
 <style>
 

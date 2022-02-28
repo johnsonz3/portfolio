@@ -7,7 +7,7 @@
           link='https://anch-fieldguide.web.app/'
           cardimage='acnh.png'
           cardcontent="A full-stack web application that utilizes the public Animal Crossing API to keep track
-of what animals users have caught"
+of what animals users have caught."
 
           :cardlanguages=" [
                           {
@@ -25,7 +25,7 @@ of what animals users have caught"
           link='https://github.com/johnsonzhang434/AirlineWebApplication'
           cardimage='p2.jpeg'
           cardcontent="A full stack web application that
-allows users to query, delete, add, and update flight information for airports in Canada"
+allows users to query, delete, add, and update flight information for airports in Canada."
           :cardlanguages=" [
                           {
                             name: 'PHP',
