@@ -6,8 +6,13 @@
           </figure>
         </div>
         <div class="card-content">
-          <div class="media">
+          <div style="display: flex;">
             <p class="title is-4">{{cardtitle}}</p>
+            <div style="margin-left:auto;">
+              <a v-if="demolink" :href="demolink" target="blank">
+                <b-button class="is-primary is-light" rounded size="is-small">Try it out</b-button>
+              </a>
+            </div>
           </div>
 
           <div class="content">
@@ -22,9 +27,11 @@
             </div>     
             <div class="content">
               <b-field>
-                <a :href="link" target="blank">
-                  <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="icon-github"/>
-                </a>
+                <div style="display:flex; gap: 1rem;">
+                  <a v-if="githublink" :href="githublink" target="blank">
+                    <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="icon-github"/>
+                  </a>
+                </div>
               </b-field>
             </div>
           </div>
@@ -41,7 +48,8 @@ export default {
     cardimage: String,
     cardcontent: String,
     cardlanguages: Array,
-    link: String
+    githublink: String,
+    demolink: String
       }
  
 }
