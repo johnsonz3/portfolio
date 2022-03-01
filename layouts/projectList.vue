@@ -2,6 +2,26 @@
   <div>
     <div class="page-title"><h2>Projects</h2></div>
     <div class="card-container">
+       <!-- Project 0 -->
+    <Card cardtitle='Personal Website'
+          link='https://jzhang-portfolio.web.app/'
+          cardimage='p4.png'
+          cardcontent="A place where I can showcase my web development skills and experiences :)."
+
+          :cardlanguages=" [
+                          {
+                            name: 'Vue',
+                          },
+                          {
+                            name: 'Firebase',
+                          },
+                          {
+                            name: 'Buefy',
+                          },
+                          {
+                            name: 'SCSS',
+                          }
+                          ]"></Card>
       <!-- Project 1 -->
     <Card cardtitle='ACNH Field Guide'
           link='https://anch-fieldguide.web.app/'
@@ -18,6 +38,14 @@ of what animals users have caught."
                           },
                           {
                             name: 'Tailwind',
+                          },
+                          {
+                            name: 'JavaScript',
+                            image: ''
+                          },
+                          {
+                            name: 'HTML/CSS',
+                            image: ''
                           }
                           ]"></Card>
     <!-- Project 2  -->
@@ -38,10 +66,14 @@ allows users to query, delete, add, and update flight information for airports i
                           {
                             name: 'JavaScript',
                             image: ''
+                          },
+                          {
+                            name: 'HTML/CSS',
+                            image: ''
                           }
                           ]"></Card>
       <!-- Project 3 -->
-      <Card cardtitle='Visual Status Display.'
+      <Card cardtitle='Visual Status Display'
             link='https://github.com/johnsonzhang434/VisualStatusDisplay'
             cardimage='p1.jpeg'
             cardcontent="A full stack web application to display a user's status
@@ -80,6 +112,22 @@ allows users to query, delete, add, and update flight information for airports i
                             },
                             {
                               name: 'SQLAlchemy',
+                              image: ''
+                            }
+                            ]"></Card>     
+
+                            <!-- Project 5 -->
+      <Card cardtitle='My Previous Personal Website'
+            link='https://johnsonzhang434.github.io/'
+            cardimage='p5.png'
+            cardcontent="An old place where I can showcase my web development skills and experiences :)."
+            :cardlanguages=" [
+                            {
+                              name: 'JavaScript',
+                              image: ''
+                            },
+                            {
+                              name: 'HTML/CSS',
                               image: ''
                             }
                             ]"></Card>     

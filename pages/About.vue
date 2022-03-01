@@ -1,8 +1,7 @@
 <template>
   <div >
     <Navbar/>
-    <!-- <About/> -->
-    Under Construction
+    <About/>
     <FooterSection/>
   </div>
 </template>

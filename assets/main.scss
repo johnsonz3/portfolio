@@ -3,6 +3,8 @@ $navbar-padding-vertical: 3rem;
 $card-radius: 0.5rem;
 $primary-color: blueviolet;
 $primary: #8c67ef;
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
 html, body{
     width: 100%;
 }
@@ -33,39 +35,47 @@ html, body{
 }
 .card {
     width: 30rem;
-    margin: 2rem;
 }
+.icon-github {
+    color: black; 
+    font-size: 2rem;
+}
+.icon-github:hover{
+    color: $primary-color;
+}    /* Change to desired color */
 
 .card:hover{
-    cursor: pointer;
     box-shadow: 0 10px 10px -4px rgb(204, 149, 255);
 }
 .card-container {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 6rem;
-    padding-top: 1rem;
+    gap: 1rem;
 }
 
 .page-title{
     text-align: center;
     font-size: 2rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .copyright{
-    width:30rem;
+    width:80%;
     line-height: 1.5;
-    padding: 1rem 0.75rem;
     position: relative;
 }
 
 .copyright img{
     width: 0.8rem;
 }
-
-.socials img{
-    width: 1.5rem;
+.socials {
+    display: flex; 
+    width:20%; 
+    margin-left: auto; 
+    gap: 1rem;
+    justify-content: right;
 }
 
 .main-page {
@@ -89,7 +99,12 @@ html, body{
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.cardlanguages + .cardlanguages:before{
+    content: ", ";
 }
 .skills-page {
     display: flex;
@@ -97,7 +112,7 @@ html, body{
     flex-wrap: wrap;
     gap: 5rem;
     justify-content: space-evenly;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .skill-card {
@@ -163,5 +178,15 @@ html, body{
     padding-right: 10px;
     text-align: right;
 }
-@import "~bulma";
-@import "~buefy/src/scss/buefy";
+
+.footerSection {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    background-color: lightgrey;
+    padding: 1rem 1rem;
+}
+
