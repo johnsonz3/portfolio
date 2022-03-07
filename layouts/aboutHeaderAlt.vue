@@ -1,5 +1,5 @@
 <template>
-    <section style="height: 80vh;">
+    <section style="height: 42rem;">
         <div class="about-header-backgroundAlt">
             <div class="profilePicAlt">
                 <img src="/images/ProfilePic.jpg"/>
@@ -26,7 +26,6 @@
                     </a>
                 </div>
               <div style="border-bottom: 1px solid lightgrey; width: 80%; margin-left: 10%;"></div>
-
             </div>
     </section>
 </template>

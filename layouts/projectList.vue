@@ -120,7 +120,8 @@ allows users to query, delete, add, and update flight information for airports i
 
                             <!-- Project 5 -->
       <Card cardtitle='My Previous Personal Website'
-            githublink='https://johnsonzhang434.github.io/'
+            demolink='https://johnsonzhang434.github.io/'
+            githublink='https://github.com/johnsonzhang434/johnsonzhang434.github.io'
             cardimage='p5.png'
             cardcontent="An old place where I can showcase my web development skills and experiences :)."
             :cardlanguages=" [

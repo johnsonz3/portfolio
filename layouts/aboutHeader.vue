@@ -1,5 +1,5 @@
 <template>
-    <section style="height: 50vh;">
+    <section style="height: 32rem;">
         <div class="about-header-background">
             <div class="profilePic">
                 <img src="/images/ProfilePic.jpg"/>

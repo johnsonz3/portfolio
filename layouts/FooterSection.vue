@@ -23,18 +23,6 @@ export default {
   data () {
     return {
       publicPath: process.env.BASE_URL,
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
     }
   }
 }

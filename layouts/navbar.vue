@@ -25,29 +25,18 @@
           </template>
 
           <template #end>
-           <div class="empty-space">
-           </div>
+            <div class="empty-space">
+            </div>
         </template>
     </b-navbar>
 </template>
+
 <script>
 export default {
   name: 'NavbarLayout',
   data () {
     return {
       publicPath: process.env.BASE_URL,
-      items: [
-        {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
-        },
-        {
-          title: 'Inspire',
-          icon: 'lightbulb',
-          to: { name: 'inspire' }
-        }
-      ]
     }
   }
 }
