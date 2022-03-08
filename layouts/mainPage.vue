@@ -8,6 +8,11 @@
                 Expected Graduation Date: April, 2022
                 </span></h1>
                 </vue-typed-js>
+                <div style="margin-top: 2rem;">
+                    <a href="/experience">
+                        <b-button class="is-primary is-light" rounded size="normal">Check out my Experiences</b-button>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
