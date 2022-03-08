@@ -45,8 +45,8 @@
             <div class="experience-card">
                 <div class="experience-description">
                     <div class="experience-card-header">
-                        <div><span class="experience-card-title">Teaching Assistant • DBMS</span></div>
-                        <div class="date">Jan. 2022 - <span style="font-style: italic">Present</span></div>
+                        <div><span class="experience-card-title">Frontend Engineer</span></div>
+                        <div class="date">May 2021 - Aug. 2021</div>
                     </div>
                     <div class="experience-card-company">
                         Cotton Candy Inc.
