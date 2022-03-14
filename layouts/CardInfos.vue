@@ -24,9 +24,8 @@
                               name: 'PHP',
                             },
                             {
-                              name: 'GraphQL',
+                              name: 'GraphQL, REST',
                             },
-                            
                             ]"></cardInfo>
         <cardInfo title="Database" iconName="database"
          :cardlanguages=" [

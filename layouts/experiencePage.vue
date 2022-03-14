@@ -98,7 +98,7 @@
         font-weight: bold;
     }
     .experience-card-title{
-        color: turquoise;
+        color: rgb(168, 0, 219);
     }
     .experience-card-company {
         font-weight: bold;
