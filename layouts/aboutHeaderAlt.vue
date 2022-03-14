@@ -7,7 +7,7 @@
         </div>
         <div class = "profileSocialsAlt">
                 <div class="introductionAlt">
-                    <span style="font-size: 2rem; font-weight: bold; color: purple;">
+                    <span class="introduction-title">
                         Hi I'm Johnson!
                     </span><br><br>
                     <span style="font-size: 1.2rem; color: black;"> 
@@ -29,6 +29,13 @@
             </div>
     </section>
 </template>
+<style scoped>
+    .introduction-title {
+        font-size: 2rem; 
+        font-weight: bold; 
+        color: rgb(92, 78, 182);
+    }
+</style>
 <script>
 
 export default ({

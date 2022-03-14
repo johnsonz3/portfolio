@@ -6,7 +6,7 @@
             </div>
             <div class = "profileSocials">
                 <div class="introduction">
-                    <span style="font-size: 2rem; font-weight: bold; color: #cfc5e9;">
+                    <span class="introduction-title">
                         Hi I'm Johnson!
                     </span><br><br>
                     <span style="font-size: 1.2rem; color: #e1ccf9;"> 
@@ -28,6 +28,13 @@
         </div>
     </section>
 </template>
+<style>
+    .introduction-title {
+        font-size: 2rem; 
+        font-weight: bold; 
+        color: #cfc5e9;
+    }
+</style>
 <script>
 
 export default ({
