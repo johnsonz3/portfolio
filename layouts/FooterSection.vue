@@ -8,7 +8,7 @@
         <a href="https://github.com/johnsonzhang434" target="blank">
           <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="icon-github"/>
         </a>
-        <a href="https://www.linkedin.com/in/johnson-zhang-ba77b1163/" target="blank">
+        <a href="https://www.linkedin.com/in/johnsonzhang2/" target="blank">
           <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin-in' }" class="icon-github"/>
         </a>
       </div>
