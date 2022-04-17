@@ -2,6 +2,30 @@
   <div>
     <div class="page-title"><h2>Projects</h2></div>
     <div class="card-container">
+    <!-- Project -1 -->
+    <Card cardtitle='TA Management System'
+          cardimage='p6.png'
+          cardcontent="A full-stack web application built for the 
+          Physics Department administrator to easily assign and manage graduate teaching assistants
+          within the Phsyics Department"
+          :cardlanguages=" [
+                          {
+                            name: 'Vue',
+                            image: ''
+                          },
+                          {
+                            name: 'TypeScript',
+                            image: ''
+                          },
+                          {
+                            name: 'MySQL',
+                            image:''
+                          },
+                          {
+                            name: 'Docker',
+                            image:''
+                          }
+                          ]"></Card>    
        <!-- Project 0 -->
     <Card cardtitle='Personal Website'
           githublink="https://github.com/johnsonzhang434/portfolio"
@@ -51,7 +75,7 @@ of what animals users have caught."
                           }
                           ]"></Card>
     <!-- Project 2  -->
-    <Card cardtitle='Airline Web Application'
+    <Card cardtitle='Flight Information Dashboard'
           githublink='https://github.com/johnsonzhang434/AirlineWebApplication'
           cardimage='p2.jpeg'
           cardcontent="A full stack web application that
@@ -118,22 +142,7 @@ allows users to query, delete, add, and update flight information for airports i
                             }
                             ]"></Card>     
 
-                            <!-- Project 5 -->
-      <Card cardtitle='My Previous Personal Website'
-            demolink='https://johnsonzhang434.github.io/'
-            githublink='https://github.com/johnsonzhang434/johnsonzhang434.github.io'
-            cardimage='p5.png'
-            cardcontent="An old place where I can showcase my web development skills and experiences :)."
-            :cardlanguages=" [
-                            {
-                              name: 'JavaScript',
-                              image: ''
-                            },
-                            {
-                              name: 'HTML/CSS',
-                              image: ''
-                            }
-                            ]"></Card>     
+                             
     </div>
     
   </div>
