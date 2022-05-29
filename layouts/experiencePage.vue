@@ -6,7 +6,7 @@
                 <div class="experience-description">
                     <div class="experience-card-header">
                         <div><span class="experience-card-title">Teaching Assistant • DBMS</span></div>
-                        <div class="date">Jan. 2022 - Apr. 2022/div>
+                        <div class="date">Jan. 2022 - Apr. 2022 </div>
                     </div>
                     <div class="experience-card-company">
                         Queen's University School of Computing

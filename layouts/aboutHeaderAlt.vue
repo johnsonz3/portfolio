@@ -2,7 +2,7 @@
     <section style="height: 42rem;">
         <div class="about-header-backgroundAlt">
             <div class="profilePicAlt">
-                <img src="/images/ProfilePic.jpg"/>
+                <img src="/images/profilepic2022.jpg"/>
             </div>
         </div>
         <div class = "profileSocialsAlt">
