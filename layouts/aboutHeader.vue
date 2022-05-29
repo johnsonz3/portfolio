@@ -10,11 +10,11 @@
                         Hi I'm Johnson!
                     </span><br><br>
                     <span style="font-size: 1.2rem; color: #e1ccf9;"> 
-                        I am a 4th year computer science student @ Queen's University with a specialization in software design.
+                        I recently graduated from Queen's University CS with a specialization in software design.
                     </span>
                 </div>
                 <div class="about-links">
-                    <a href="https://www.linkedin.com/in/johnson-zhang-ba77b1163/" target="blank">
+                    <a href="https://www.linkedin.com/in/johnsonzhang2/" target="blank">
                         LinkedIn
                     </a>
                     <a href="https://github.com/johnsonzhang434" target="blank">
