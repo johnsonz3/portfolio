@@ -22,7 +22,7 @@
               <b-navbar-item tag="router-link" :to="{ path: '/Skills' }">
                 Skills
               </b-navbar-item>
-              <b-navbar-item href="/Johnsons-Resume.pdf" target="_blank">
+              <b-navbar-item href="/Johnsons-Resume22.pdf" target="_blank">
                 Resume
               </b-navbar-item>
           </template>
